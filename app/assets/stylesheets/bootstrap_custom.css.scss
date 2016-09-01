@@ -1,23 +1,25 @@
-$navbar-default-bg:                #f6f6f6;
-$navbar-default-brand-color:       #3d3d3d;
+$navbar-default-bg:                 #ffffff;
+$navbar-default-brand-color:        #3d3d3d;
+$brand-primary:                     #78bfdd;
 
 @import 'bootstrap';
 
 .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
-
-.navbar a {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
     font-family: 'Raleway', sans;
-    color: #78bfdd;
 }
 
 .center {
      text-align: center;
 }
+
+.thin h1, .thin h2 {
+    font-weight:200;
+}
+.forty {
+    margin:40px auto;
+}
+h1 {font-size:30px;}
+h2 {font-size:26px;}
