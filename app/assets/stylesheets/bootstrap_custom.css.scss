@@ -4,11 +4,21 @@ $brand-primary:                     #78bfdd;
 
 @import 'bootstrap';
 
+body {
+    font-family: 'Raleway', sans;
+}
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
     vertical-align: top;
     font-family: 'Raleway', sans;
+}
+
+.navbar {
+    border:none;
+    border-radius: 0px;
+    border-bottom: 1px solid #78bfdd;
 }
 
 .center {
@@ -21,5 +31,23 @@ $brand-primary:                     #78bfdd;
 .forty {
     margin:40px auto;
 }
+
+.homeOptin {
+    max-width:600px;
+    min-width:200px;
+    margin:auto;
+    float:none;
+}
+
+.familyAbout {
+    max-width:50%;
+    min-width:275px;
+}
+
+.thousand {
+    max-width:1000px;
+    margin:40px auto;
+}
+
 h1 {font-size:30px;}
 h2 {font-size:26px;}
